@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASCAR Predictions - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #1a1a2e; color: #e0e0e0; }
+    .navbar { background: #16213e !important; border-bottom: 2px solid #e94560; }
+    .navbar-brand { color: #e94560 !important; font-weight: 700; letter-spacing: 1px; }
+    .nav-link { color: #a0a0c0 !important; }
+    .nav-link:hover, .nav-link.active { color: #e94560 !important; }
+    .card { background: #16213e; border: 1px solid #2a2a4a; }
+    .card-header { background: #0f3460; border-bottom: 1px solid #2a2a4a; }
+    .table { color: #e0e0e0; }
+    .table thead th { background: #0f3460; color: #e94560; border-bottom: 2px solid #e94560; position: sticky; top: 0; }
+    .table-hover tbody tr:hover { background-color: rgba(233, 69, 96, 0.1) !important; }
+    .badge-win { background: #28a745; }
+    .badge-top5 { background: #17a2b8; }
+    .badge-top10 { background: #6f42c1; }
+    .badge-top20 { background: #fd7e14; }
+    .badge-made { background: #6c757d; }
+    .badge-dnf { background: #dc3545; }
+    .row-top5 { background-color: rgba(40, 167, 69, 0.08) !important; }
+    .row-bottom { background-color: rgba(220, 53, 69, 0.06) !important; }
+    .ep-bar { height: 6px; background: #e94560; border-radius: 3px; display: inline-block; vertical-align: middle; }
+    .search-box { background: #0f3460; border: 1px solid #2a2a4a; color: #e0e0e0; }
+    .search-box:focus { background: #0f3460; color: #e0e0e0; border-color: #e94560; box-shadow: 0 0 0 0.2rem rgba(233, 69, 96, 0.25); }
+    footer { border-top: 1px solid #2a2a4a; color: #606080; }
+    [title] { cursor: help; }
+    th[title], .tip { border-bottom: 1px dotted #606080; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="/nascar-picks/">NASCAR Predictions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="/nascar-picks/">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="/nascar-picks/elo.html">ELO Rankings</a></li>
+<li class="nav-item"><a class="nav-link" href="/nascar-picks/accuracy.html">Accuracy</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-4">
+    <div class="card mb-4" style="border: 2px solid #e94560;">
+  <div class="card-body">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <span class="badge bg-danger mb-2">Up Next</span>
+        <h3 class="mb-1">Cook Out 400</h3>
+        <p class="mb-2"><span class="text-muted">Martinsville Speedway</span><span class="badge bg-secondary ms-2">short_track</span></p>
+        <p class="mb-2"><span style="color: #e94560; font-weight: 600;">Sunday, March 29, 2026</span></p>
+        <span class="badge bg-success">Full Field (36 drivers)</span> 
+        <div class="mt-3"><a href="/nascar-picks/prediction/2026007.html" class="btn btn-outline-danger">View Full Predictions &rarr;</a></div>
+      </div>
+      <div class="col-lg-5 mt-3 mt-lg-0"><div class="card" style="background: #0f3460; border: 1px solid #2a2a4a;">
+              <div class="card-body py-2 px-3">
+                <h6 class="mb-2" style="color: #28a745;">Top Win Picks</h6>
+                <div class="d-flex justify-content-between py-1 border-bottom border-dark"><span>1. Ty Gibbs</span><strong style="color: #28a745;">27.3%</strong></div>
+<div class="d-flex justify-content-between py-1 border-bottom border-dark"><span>2. Christopher Bell</span><strong style="color: #28a745;">27.2%</strong></div>
+<div class="d-flex justify-content-between py-1"><span>3. Denny Hamlin</span><strong style="color: #28a745;">26.0%</strong></div>
+
+              </div>
+            </div></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-5 mb-4"><div class="card">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">ELO Rankings (Top 20)</h5>
+        <a href="/nascar-picks/elo.html" class="btn btn-sm btn-outline-light">View All</a>
+      </div>
+      <div class="card-body p-0">
+        <table class="table table-hover table-sm mb-0">
+          <thead><tr><th style="width:50px">#</th><th>Driver</th><th class="text-end" style="width:80px">ELO</th><th style="width:100px"></th></tr></thead>
+          <tbody><tr>
+          <td>1</td>
+          <td>Tyler Reddick</td>
+          <td class="text-end">1517.0</td>
+          <td><div class="ep-bar" style="width: 91%"></div></td>
+        </tr>
+<tr>
+          <td>2</td>
+          <td>Brad Keselowski</td>
+          <td class="text-end">1516.4</td>
+          <td><div class="ep-bar" style="width: 89%"></div></td>
+        </tr>
+<tr>
+          <td>3</td>
+          <td>Ryan Blaney</td>
+          <td class="text-end">1515.4</td>
+          <td><div class="ep-bar" style="width: 86%"></div></td>
+        </tr>
+<tr>
+          <td>4</td>
+          <td>Carson Hocevar</td>
+          <td class="text-end">1513.9</td>
+          <td><div class="ep-bar" style="width: 82%"></div></td>
+        </tr>
+<tr>
+          <td>5</td>
+          <td>Austin Cindric</td>
+          <td class="text-end">1513.3</td>
+          <td><div class="ep-bar" style="width: 80%"></div></td>
+        </tr>
+<tr>
+          <td>6</td>
+          <td>Joey Hand</td>
+          <td class="text-end">1513.3</td>
+          <td><div class="ep-bar" style="width: 80%"></div></td>
+        </tr>
+<tr>
+          <td>7</td>
+          <td>Ty Gibbs</td>
+          <td class="text-end">1513.1</td>
+          <td><div class="ep-bar" style="width: 80%"></div></td>
+        </tr>
+<tr>
+          <td>8</td>
+          <td>Daniel Suarez</td>
+          <td class="text-end">1512.5</td>
+          <td><div class="ep-bar" style="width: 78%"></div></td>
+        </tr>
+<tr>
+          <td>9</td>
+          <td>William Byron</td>
+          <td class="text-end">1511.9</td>
+          <td><div class="ep-bar" style="width: 76%"></div></td>
+        </tr>
+<tr>
+          <td>10</td>
+          <td>Chris Buescher</td>
+          <td class="text-end">1511.3</td>
+          <td><div class="ep-bar" style="width: 75%"></div></td>
+        </tr>
+<tr>
+          <td>11</td>
+          <td>Parker Retzlaff</td>
+          <td class="text-end">1510.1</td>
+          <td><div class="ep-bar" style="width: 71%"></div></td>
+        </tr>
+<tr>
+          <td>12</td>
+          <td>Denny Hamlin</td>
+          <td class="text-end">1509.8</td>
+          <td><div class="ep-bar" style="width: 70%"></div></td>
+        </tr>
+<tr>
+          <td>13</td>
+          <td>Kevin Harvick</td>
+          <td class="text-end">1509.7</td>
+          <td><div class="ep-bar" style="width: 70%"></div></td>
+        </tr>
+<tr>
+          <td>14</td>
+          <td>Erik Jones</td>
+          <td class="text-end">1509.5</td>
+          <td><div class="ep-bar" style="width: 70%"></div></td>
+        </tr>
+<tr>
+          <td>15</td>
+          <td>Chase Briscoe</td>
+          <td class="text-end">1508.7</td>
+          <td><div class="ep-bar" style="width: 67%"></div></td>
+        </tr>
+<tr>
+          <td>16</td>
+          <td>Ryan Preece</td>
+          <td class="text-end">1508.5</td>
+          <td><div class="ep-bar" style="width: 67%"></div></td>
+        </tr>
+<tr>
+          <td>17</td>
+          <td>Kurt Busch</td>
+          <td class="text-end">1508.1</td>
+          <td><div class="ep-bar" style="width: 66%"></div></td>
+        </tr>
+<tr>
+          <td>18</td>
+          <td>Chandler Smith</td>
+          <td class="text-end">1508.1</td>
+          <td><div class="ep-bar" style="width: 65%"></div></td>
+        </tr>
+<tr>
+          <td>19</td>
+          <td>Shane van Gisbergen</td>
+          <td class="text-end">1508.1</td>
+          <td><div class="ep-bar" style="width: 65%"></div></td>
+        </tr>
+<tr>
+          <td>20</td>
+          <td>Travis Pastrana</td>
+          <td class="text-end">1507.6</td>
+          <td><div class="ep-bar" style="width: 64%"></div></td>
+        </tr>
+</tbody>
+        </table>
+      </div>
+    </div></div>
+  <div class="col-lg-7 mb-4"><h5 class="mb-3">Upcoming Races</h5><div class="row mb-4"><div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026008.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Food City 500</h6>
+              <small class="text-muted">Bristol Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Sunday, April 12, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026009.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">AdventHealth 400</h6>
+              <small class="text-muted">Kansas Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, April 19, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026010.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Jack Link's 500</h6>
+              <small class="text-muted">Talladega Superspeedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">superspeedway</span>
+                <span class="badge bg-dark">Sunday, April 26, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026011.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Wurth 400 presented by LIQUI MOLY</h6>
+              <small class="text-muted">Texas Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, May 3, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026012.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Go Bowling at The Glen</h6>
+              <small class="text-muted">Watkins Glen International</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">road_course</span>
+                <span class="badge bg-dark">Sunday, May 10, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026013.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Coca-Cola 600</h6>
+              <small class="text-muted">Charlotte Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, May 24, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026014.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Cracker Barrel 400</h6>
+              <small class="text-muted">Nashville Superspeedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, May 31, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026015.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">FireKeepers Casino 400</h6>
+              <small class="text-muted">Michigan International Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, June 7, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026016.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Great American Getaway 400 presented by VISITPA</h6>
+              <small class="text-muted">Pocono Raceway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, June 14, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026017.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Anduril 250</h6>
+              <small class="text-muted">Naval Base Coronado</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">road_course</span>
+                <span class="badge bg-dark">Sunday, June 21, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026018.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Toyota / Save Mart 350</h6>
+              <small class="text-muted">Sonoma Raceway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">road_course</span>
+                <span class="badge bg-dark">Sunday, June 28, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026019.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">NCS Race at Chicagoland</h6>
+              <small class="text-muted">Chicagoland Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, July 5, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026020.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Quaker State 400 Available at Walmart</h6>
+              <small class="text-muted">EchoPark Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, July 12, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026021.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Window World 400</h6>
+              <small class="text-muted">North Wilkesboro Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Sunday, July 19, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026022.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Brickyard 400</h6>
+              <small class="text-muted">Indianapolis Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, July 26, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026023.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Iowa Corn 350 Powered by Ethanol</h6>
+              <small class="text-muted">Iowa Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Sunday, August 9, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026024.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Cook Out 400</h6>
+              <small class="text-muted">Richmond Raceway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Saturday, August 15, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026025.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">NCS Race at New Hampshire</h6>
+              <small class="text-muted">New Hampshire Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Sunday, August 23, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026026.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Coke Zero Sugar 400</h6>
+              <small class="text-muted">Daytona International Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">superspeedway</span>
+                <span class="badge bg-dark">Saturday, August 29, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026027.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Cook Out Southern 500</h6>
+              <small class="text-muted">Darlington Raceway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, September 6, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026028.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Enjoy Illinois 300</h6>
+              <small class="text-muted">World Wide Technology Raceway at Gateway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, September 13, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026029.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Bass Pro Shops Night Race</h6>
+              <small class="text-muted">Bristol Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Saturday, September 19, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026030.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Hollywood Casino 400</h6>
+              <small class="text-muted">Kansas Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, September 27, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026031.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">South Point 400</h6>
+              <small class="text-muted">Las Vegas Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, October 4, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026032.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Bank of America 400</h6>
+              <small class="text-muted">Charlotte Motor Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, October 11, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026033.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Freeway Insurance 500</h6>
+              <small class="text-muted">Phoenix Raceway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Sunday, October 18, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026034.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Yellawood 500</h6>
+              <small class="text-muted">Talladega Superspeedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">superspeedway</span>
+                <span class="badge bg-dark">Sunday, October 25, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026035.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">Xfinity 500</h6>
+              <small class="text-muted">Martinsville Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">short_track</span>
+                <span class="badge bg-dark">Sunday, November 1, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+<div class="col-md-6 mb-3">
+        <a href="/nascar-picks/prediction/2026036.html" class="text-decoration-none">
+          <div class="card h-100" style="transition: transform 0.15s; cursor: pointer;"
+               onmouseover="this.style.transform='translateY(-3px)'; this.style.borderColor='#e94560'"
+               onmouseout="this.style.transform=''; this.style.borderColor='#2a2a4a'">
+            <div class="card-body py-2 px-3">
+              <h6 class="card-title text-white mb-1">NASCAR Cup Series Championship</h6>
+              <small class="text-muted">Homestead-Miami Speedway</small>
+              <div class="mt-1">
+                <span class="badge bg-secondary">intermediate</span>
+                <span class="badge bg-dark">Sunday, November 8, 2026</span>
+                 
+              </div>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+</div><h5 class="mb-3">Completed Races</h5>
+    <div class="card"><div class="card-body p-0">
+      <table class="table table-hover table-sm mb-0">
+        <thead><tr>
+          <th style="width:40px">#</th><th>Race</th><th>Date</th>
+          <th class="text-end">Spearman</th><th class="text-end">Top-5</th><th class="text-center">Winner</th>
+        </tr></thead>
+        <tbody><tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2026006.html'">
+              <td>6</td>
+              <td><a href="/nascar-picks/prediction/2026006.html" class="text-decoration-none text-white">Goodyear 400</a><br><small class="text-muted">Darlington Raceway</small></td>
+              <td><small>Sunday, March 22, 2026</small></td>
+              <td class="text-end"><span class="text-success">0.460</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2026005.html'">
+              <td>5</td>
+              <td><a href="/nascar-picks/prediction/2026005.html" class="text-decoration-none text-white">Pennzoil 400 presented by Jiffy Lube</a><br><small class="text-muted">Las Vegas Motor Speedway</small></td>
+              <td><small>Sunday, March 15, 2026</small></td>
+              <td class="text-end"><span class="text-success">0.845</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2026004.html'">
+              <td>4</td>
+              <td><a href="/nascar-picks/prediction/2026004.html" class="text-decoration-none text-white">Straight Talk Wireless 500</a><br><small class="text-muted">Phoenix Raceway</small></td>
+              <td><small>Sunday, March 8, 2026</small></td>
+              <td class="text-end"><span class="">0.391</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2026003.html'">
+              <td>3</td>
+              <td><a href="/nascar-picks/prediction/2026003.html" class="text-decoration-none text-white">DuraMax Grand Prix Powered by RelaDyne</a><br><small class="text-muted">Circuit of the Americas</small></td>
+              <td><small>Sunday, March 1, 2026</small></td>
+              <td class="text-end"><span class="text-success">0.444</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2026002.html'">
+              <td>2</td>
+              <td><a href="/nascar-picks/prediction/2026002.html" class="text-decoration-none text-white">Autotrader 400</a><br><small class="text-muted">EchoPark Speedway</small></td>
+              <td><small>Sunday, February 22, 2026</small></td>
+              <td class="text-end"><span class="">0.304</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2026001.html'">
+              <td>1</td>
+              <td><a href="/nascar-picks/prediction/2026001.html" class="text-decoration-none text-white">DAYTONA 500</a><br><small class="text-muted">Daytona International Speedway</small></td>
+              <td><small>Sunday, February 15, 2026</small></td>
+              <td class="text-end"><span class="text-danger">0.080</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025036.html'">
+              <td>36</td>
+              <td><a href="/nascar-picks/prediction/2025036.html" class="text-decoration-none text-white">NASCAR Cup Series Championship</a><br><small class="text-muted">Phoenix Raceway</small></td>
+              <td><small>Sunday, November 2, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.580</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025035.html'">
+              <td>35</td>
+              <td><a href="/nascar-picks/prediction/2025035.html" class="text-decoration-none text-white">Xfinity 500</a><br><small class="text-muted">Martinsville Speedway</small></td>
+              <td><small>Sunday, October 26, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.550</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025034.html'">
+              <td>34</td>
+              <td><a href="/nascar-picks/prediction/2025034.html" class="text-decoration-none text-white">YellaWood 500</a><br><small class="text-muted">Talladega Superspeedway</small></td>
+              <td><small>Sunday, October 19, 2025</small></td>
+              <td class="text-end"><span class="text-danger">0.055</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025033.html'">
+              <td>33</td>
+              <td><a href="/nascar-picks/prediction/2025033.html" class="text-decoration-none text-white">South Point 400</a><br><small class="text-muted">Las Vegas Motor Speedway</small></td>
+              <td><small>Sunday, October 12, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.431</span></td>
+                <td class="text-end">4 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025032.html'">
+              <td>32</td>
+              <td><a href="/nascar-picks/prediction/2025032.html" class="text-decoration-none text-white">Bank of America ROVAL 400</a><br><small class="text-muted">Charlotte Motor Speedway Road Course</small></td>
+              <td><small>Sunday, October 5, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.714</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025031.html'">
+              <td>31</td>
+              <td><a href="/nascar-picks/prediction/2025031.html" class="text-decoration-none text-white">Hollywood Casino 400</a><br><small class="text-muted">Kansas Speedway</small></td>
+              <td><small>Sunday, September 28, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.530</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025030.html'">
+              <td>30</td>
+              <td><a href="/nascar-picks/prediction/2025030.html" class="text-decoration-none text-white">Mobil 1 301</a><br><small class="text-muted">New Hampshire Motor Speedway</small></td>
+              <td><small>Sunday, September 21, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.639</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025029.html'">
+              <td>29</td>
+              <td><a href="/nascar-picks/prediction/2025029.html" class="text-decoration-none text-white">Bass Pro Shops Night Race</a><br><small class="text-muted">Bristol Motor Speedway</small></td>
+              <td><small>Saturday, September 13, 2025</small></td>
+              <td class="text-end"><span class="text-danger">0.138</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025028.html'">
+              <td>28</td>
+              <td><a href="/nascar-picks/prediction/2025028.html" class="text-decoration-none text-white">Enjoy Illinois 300</a><br><small class="text-muted">World Wide Technology Raceway at Gateway</small></td>
+              <td><small>Sunday, September 7, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.717</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025027.html'">
+              <td>27</td>
+              <td><a href="/nascar-picks/prediction/2025027.html" class="text-decoration-none text-white">Cook Out Southern 500</a><br><small class="text-muted">Darlington Raceway</small></td>
+              <td><small>Sunday, August 31, 2025</small></td>
+              <td class="text-end"><span class="">0.352</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025026.html'">
+              <td>26</td>
+              <td><a href="/nascar-picks/prediction/2025026.html" class="text-decoration-none text-white">Coke Zero Sugar 400</a><br><small class="text-muted">Daytona International Speedway</small></td>
+              <td><small>Saturday, August 23, 2025</small></td>
+              <td class="text-end"><span class="text-danger">0.127</span></td>
+                <td class="text-end">0 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025025.html'">
+              <td>25</td>
+              <td><a href="/nascar-picks/prediction/2025025.html" class="text-decoration-none text-white">Cook Out 400</a><br><small class="text-muted">Richmond Raceway</small></td>
+              <td><small>Saturday, August 16, 2025</small></td>
+              <td class="text-end"><span class="">0.322</span></td>
+                <td class="text-end">0 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025024.html'">
+              <td>24</td>
+              <td><a href="/nascar-picks/prediction/2025024.html" class="text-decoration-none text-white">Go Bowling at The Glen</a><br><small class="text-muted">Watkins Glen International</small></td>
+              <td><small>Sunday, August 10, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.567</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025023.html'">
+              <td>23</td>
+              <td><a href="/nascar-picks/prediction/2025023.html" class="text-decoration-none text-white">Iowa Corn 350 Powered by Ethanol</a><br><small class="text-muted">Iowa Speedway</small></td>
+              <td><small>Sunday, August 3, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.627</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025022.html'">
+              <td>22</td>
+              <td><a href="/nascar-picks/prediction/2025022.html" class="text-decoration-none text-white">Brickyard 400 Presented by PPG</a><br><small class="text-muted">Indianapolis Motor Speedway</small></td>
+              <td><small>Sunday, July 27, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.419</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025021.html'">
+              <td>21</td>
+              <td><a href="/nascar-picks/prediction/2025021.html" class="text-decoration-none text-white">Autotrader EchoPark Automotive 400</a><br><small class="text-muted">Dover International Speedway</small></td>
+              <td><small>Sunday, July 20, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.599</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025020.html'">
+              <td>20</td>
+              <td><a href="/nascar-picks/prediction/2025020.html" class="text-decoration-none text-white">Toyota / SaveMart 350</a><br><small class="text-muted">Sonoma Raceway</small></td>
+              <td><small>Sunday, July 13, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.568</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025019.html'">
+              <td>19</td>
+              <td><a href="/nascar-picks/prediction/2025019.html" class="text-decoration-none text-white">Grant Park 165</a><br><small class="text-muted">Chicago Street Course</small></td>
+              <td><small>Sunday, July 6, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.436</span></td>
+                <td class="text-end">4 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025018.html'">
+              <td>18</td>
+              <td><a href="/nascar-picks/prediction/2025018.html" class="text-decoration-none text-white">Quaker State 400 Available at Walmart</a><br><small class="text-muted">EchoPark Speedway</small></td>
+              <td><small>Saturday, June 28, 2025</small></td>
+              <td class="text-end"><span class="text-danger">-0.082</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025017.html'">
+              <td>17</td>
+              <td><a href="/nascar-picks/prediction/2025017.html" class="text-decoration-none text-white">The Great American Getaway 400 Presented by VISITPA.COM</a><br><small class="text-muted">Pocono Raceway</small></td>
+              <td><small>Sunday, June 22, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.508</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025016.html'">
+              <td>16</td>
+              <td><a href="/nascar-picks/prediction/2025016.html" class="text-decoration-none text-white">Viva Mexico 250</a><br><small class="text-muted">Autodromo Hermanos Rodriguez</small></td>
+              <td><small>Sunday, June 15, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.441</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025015.html'">
+              <td>15</td>
+              <td><a href="/nascar-picks/prediction/2025015.html" class="text-decoration-none text-white">Firekeepers Casino 400</a><br><small class="text-muted">Michigan International Speedway</small></td>
+              <td><small>Sunday, June 8, 2025</small></td>
+              <td class="text-end"><span class="">0.395</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025014.html'">
+              <td>14</td>
+              <td><a href="/nascar-picks/prediction/2025014.html" class="text-decoration-none text-white">Cracker Barrel 400</a><br><small class="text-muted">Nashville Superspeedway</small></td>
+              <td><small>Sunday, June 1, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.607</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025013.html'">
+              <td>13</td>
+              <td><a href="/nascar-picks/prediction/2025013.html" class="text-decoration-none text-white">Coca-Cola 600</a><br><small class="text-muted">Charlotte Motor Speedway</small></td>
+              <td><small>Sunday, May 25, 2025</small></td>
+              <td class="text-end"><span class="text-danger">0.133</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025012.html'">
+              <td>12</td>
+              <td><a href="/nascar-picks/prediction/2025012.html" class="text-decoration-none text-white">AdventHealth 400</a><br><small class="text-muted">Kansas Speedway</small></td>
+              <td><small>Sunday, May 11, 2025</small></td>
+              <td class="text-end"><span class="">0.303</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025011.html'">
+              <td>11</td>
+              <td><a href="/nascar-picks/prediction/2025011.html" class="text-decoration-none text-white">Wurth 400 presented by LIQUI MOLY</a><br><small class="text-muted">Texas Motor Speedway</small></td>
+              <td><small>Sunday, May 4, 2025</small></td>
+              <td class="text-end"><span class="text-danger">0.007</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025010.html'">
+              <td>10</td>
+              <td><a href="/nascar-picks/prediction/2025010.html" class="text-decoration-none text-white">Jack Link's 500</a><br><small class="text-muted">Talladega Superspeedway</small></td>
+              <td><small>Sunday, April 27, 2025</small></td>
+              <td class="text-end"><span class="text-danger">0.080</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025009.html'">
+              <td>9</td>
+              <td><a href="/nascar-picks/prediction/2025009.html" class="text-decoration-none text-white">Food City 500</a><br><small class="text-muted">Bristol Motor Speedway</small></td>
+              <td><small>Sunday, April 13, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.632</span></td>
+                <td class="text-end">3 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025008.html'">
+              <td>8</td>
+              <td><a href="/nascar-picks/prediction/2025008.html" class="text-decoration-none text-white">Goodyear 400</a><br><small class="text-muted">Darlington Raceway</small></td>
+              <td><small>Sunday, April 6, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.424</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025007.html'">
+              <td>7</td>
+              <td><a href="/nascar-picks/prediction/2025007.html" class="text-decoration-none text-white">Cook Out 400</a><br><small class="text-muted">Martinsville Speedway</small></td>
+              <td><small>Sunday, March 30, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.647</span></td>
+                <td class="text-end">4 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025006.html'">
+              <td>6</td>
+              <td><a href="/nascar-picks/prediction/2025006.html" class="text-decoration-none text-white">Straight Talk Wireless 400</a><br><small class="text-muted">Homestead-Miami Speedway</small></td>
+              <td><small>Sunday, March 23, 2025</small></td>
+              <td class="text-end"><span class="text-success">0.516</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025005.html'">
+              <td>5</td>
+              <td><a href="/nascar-picks/prediction/2025005.html" class="text-decoration-none text-white">Pennzoil 400 Presented by Jiffy Lube</a><br><small class="text-muted">Las Vegas Motor Speedway</small></td>
+              <td><small>Sunday, March 16, 2025</small></td>
+              <td class="text-end"><span class="">0.334</span></td>
+                <td class="text-end">0 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025004.html'">
+              <td>4</td>
+              <td><a href="/nascar-picks/prediction/2025004.html" class="text-decoration-none text-white">Shriners Children's 500</a><br><small class="text-muted">Phoenix Raceway</small></td>
+              <td><small>Sunday, March 9, 2025</small></td>
+              <td class="text-end"><span class="">0.359</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025003.html'">
+              <td>3</td>
+              <td><a href="/nascar-picks/prediction/2025003.html" class="text-decoration-none text-white">Echopark Automotive Grand Prix</a><br><small class="text-muted">Circuit of the Americas</small></td>
+              <td><small>Sunday, March 2, 2025</small></td>
+              <td class="text-end"><span class="">0.304</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025002.html'">
+              <td>2</td>
+              <td><a href="/nascar-picks/prediction/2025002.html" class="text-decoration-none text-white">Ambetter Health 400</a><br><small class="text-muted">EchoPark Speedway</small></td>
+              <td><small>Sunday, February 23, 2025</small></td>
+              <td class="text-end"><span class="">0.346</span></td>
+                <td class="text-end">2 / 5</td>
+                <td class="text-center"><span class="text-muted">No</span></td>
+            </tr>
+<tr style="cursor: pointer;" onclick="window.location='/nascar-picks/prediction/2025001.html'">
+              <td>1</td>
+              <td><a href="/nascar-picks/prediction/2025001.html" class="text-decoration-none text-white">DAYTONA 500</a><br><small class="text-muted">Daytona International Speedway</small></td>
+              <td><small>Sunday, February 16, 2025</small></td>
+              <td class="text-end"><span class="">0.210</span></td>
+                <td class="text-end">1 / 5</td>
+                <td class="text-center"><span style="color: #28a745;">Yes</span></td>
+            </tr>
+</tbody>
+      </table>
+    </div></div></div>
+</div>
+  </div>
+
+  <footer class="text-center py-3 mt-4">
+    <small>NASCAR Prediction Model &mdash; XGBoost + ELO System &mdash; Artificial Degeneracy</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
