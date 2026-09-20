@@ -57,9 +57,12 @@
   <span class="text-muted">Bristol Motor Speedway</span>
   <span class="badge bg-secondary ms-2">short_track</span>
   <span class="badge bg-dark ms-1">Saturday, September 19, 2026</span>
-  <span class="badge bg-success ms-1" title="Predictions adjusted with practice speed data (25% weight)">w/ Practice</span>
+  
 </div></div>
-
+<ul class="nav nav-tabs mb-3" role="tablist">
+  <li class="nav-item" role="presentation"><button class="nav-link active" id="pred-tab" data-bs-toggle="tab" data-bs-target="#pred-pane" type="button" role="tab">Predictions</button></li>
+  <li class="nav-item" role="presentation"><button class="nav-link" id="results-tab" data-bs-toggle="tab" data-bs-target="#results-pane" type="button" role="tab">Results</button></li>
+</ul>
 <div class="tab-content">
   <div class="tab-pane fade show active" id="pred-pane" role="tabpanel">
     <h5 class="mb-3">Quick Picks</h5><div class="row mb-4"><div class="col-md-4 col-sm-6 mb-3">
@@ -118,11 +121,11 @@
         <div class="card h-100" style="border-left: 3px solid #20c997">
           <div class="card-body py-2 px-3">
             <h6 class="card-title mb-2 tip" style="color: #20c997" title="Risk-adjusted score: EP multiplied by chance of finishing (penalizes DNF-prone drivers)">Best Value</h6>
-            <ol class="list-unstyled mb-0"><li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>1. Denny Hamlin</span><strong>5.56</strong></li>
-<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>2. Joey Logano</span><strong>5.02</strong></li>
-<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>3. Kyle Larson</span><strong>4.87</strong></li>
-<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>4. Ty Gibbs</span><strong>4.43</strong></li>
-<li class="d-flex justify-content-between py-1"><span>5. Christopher Bell</span><strong>4.38</strong></li>
+            <ol class="list-unstyled mb-0"><li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>1. Denny Hamlin</span><strong>5.55</strong></li>
+<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>2. Joey Logano</span><strong>4.96</strong></li>
+<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>3. Kyle Larson</span><strong>4.84</strong></li>
+<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>4. Ty Gibbs</span><strong>4.45</strong></li>
+<li class="d-flex justify-content-between py-1"><span>5. Christopher Bell</span><strong>4.34</strong></li>
 </ol>
           </div>
         </div>
@@ -136,19 +139,6 @@
 <li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>3. Riley Herbst</span><strong>16.4%</strong></li>
 <li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>4. Austin Dillon</span><strong>15.7%</strong></li>
 <li class="d-flex justify-content-between py-1"><span>5. John Hunter Nemechek</span><strong>14.9%</strong></li>
-</ol>
-          </div>
-        </div>
-      </div>
-<div class="col-md-4 col-sm-6 mb-3">
-        <div class="card h-100" style="border-left: 3px solid #0dcaf0">
-          <div class="card-body py-2 px-3">
-            <h6 class="card-title mb-2 tip" style="color: #0dcaf0" title="Drivers whose practice speed boosted them the most vs model-only prediction">Practice Risers</h6>
-            <ol class="list-unstyled mb-0"><li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>1. Ryan Blaney</span><strong>Top 5 pick (Start 29)</strong></li>
-<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>2. Joey Logano</span><strong>Win pick (Start 2)</strong></li>
-<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>3. Carson Hocevar</span><strong>Top 5 pick (Start 5)</strong></li>
-<li class="d-flex justify-content-between py-1 border-bottom border-dark"><span>4. Christopher Bell</span><strong>Top 3 pick (Start 12)</strong></li>
-<li class="d-flex justify-content-between py-1"><span>5. Josh Berry</span><strong>Top 10 pick (Start 32)</strong></li>
 </ol>
           </div>
         </div>
@@ -184,7 +174,7 @@
           <th class="text-end" style="width:70px" title="Driver ELO rating">ELO</th>
           <th class="text-end" style="width:65px" title="Organization/team equipment rating">Org</th>
           <th class="text-end" style="width:70px" title="Average finish at this specific track (starts in parentheses)">Track</th>
-          <th class="text-end" style="width:65px" title="Practice speed adjustment">Prac</th>
+          
         </tr></thead>
         <tbody><tr class="row-top5">
           <td><strong>1</strong></td>
@@ -192,7 +182,7 @@
           <td>11</td>
           <td><small>Joe Gibbs Racing</small></td>
           <td class="text-end">3</td>
-          <td class="text-end"><strong>5.77</strong></td>
+          <td class="text-end"><strong>5.76</strong></td>
           <td><div class="ep-bar" style="width: 100%"></div></td>
           <td class="text-end">14.6%</td>
           <td class="text-end">36.5%</td>
@@ -202,7 +192,7 @@
           <td class="text-end">1511</td>
           <td class="text-end">29.0</td>
           <td class="text-end"><span style="color:#28a745;" title="Best: P1 | Last 3: 2, 31, 9">10<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.09</span></td>
+          
         </tr>
 <tr class="row-top5">
           <td><strong>2</strong></td>
@@ -210,8 +200,8 @@
           <td>22</td>
           <td><small>Team Penske</small></td>
           <td class="text-end">2</td>
-          <td class="text-end"><strong>5.30</strong></td>
-          <td><div class="ep-bar" style="width: 91%"></div></td>
+          <td class="text-end"><strong>5.24</strong></td>
+          <td><div class="ep-bar" style="width: 90%"></div></td>
           <td class="text-end"><strong style="color:#28a745">15.2%</strong></td>
           <td class="text-end">29.2%</td>
           <td class="text-end">43.3%</td>
@@ -220,7 +210,7 @@
           <td class="text-end">1515</td>
           <td class="text-end">26.1</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P5 | Last 3: 24, 5, 7">19<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.45</span></td>
+          
         </tr>
 <tr class="row-top5">
           <td><strong>3</strong></td>
@@ -228,7 +218,7 @@
           <td>5</td>
           <td><small>Hendrick Motorsports</small></td>
           <td class="text-end">1</td>
-          <td class="text-end"><strong>5.06</strong></td>
+          <td class="text-end"><strong>5.04</strong></td>
           <td><div class="ep-bar" style="width: 87%"></div></td>
           <td class="text-end">12.0%</td>
           <td class="text-end">25.9%</td>
@@ -238,34 +228,16 @@
           <td class="text-end">1516</td>
           <td class="text-end">23.8</td>
           <td class="text-end"><span style="color:#28a745;" title="Best: P1 | Last 3: 1, 32, 3">6<small class="text-muted">(8)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.23</span></td>
+          
         </tr>
 <tr class="row-top5">
           <td><strong>4</strong></td>
-          <td>Christopher Bell</td>
-          <td>20</td>
-          <td><small>Joe Gibbs Racing</small></td>
-          <td class="text-end">12</td>
-          <td class="text-end"><strong>4.69</strong></td>
-          <td><div class="ep-bar" style="width: 81%"></div></td>
-          <td class="text-end">10.2%</td>
-          <td class="text-end">21.7%</td>
-          <td class="text-end">33.2%</td>
-          <td class="text-end">56.0%</td>
-          <td class="text-end">6.6%</td>
-          <td class="text-end">1504</td>
-          <td class="text-end">29.0</td>
-          <td class="text-end"><span style="color:#ffc107;" title="Best: P1 | Last 3: 8, 1, 27">12<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.39</span></td>
-        </tr>
-<tr class="row-top5">
-          <td><strong>5</strong></td>
           <td>Ty Gibbs</td>
           <td>54</td>
           <td><small>Joe Gibbs Racing</small></td>
           <td class="text-end">13</td>
-          <td class="text-end"><strong>4.65</strong></td>
-          <td><div class="ep-bar" style="width: 80%"></div></td>
+          <td class="text-end"><strong>4.67</strong></td>
+          <td><div class="ep-bar" style="width: 81%"></div></td>
           <td class="text-end">9.4%</td>
           <td class="text-end">21.9%</td>
           <td class="text-end">34.5%</td>
@@ -274,7 +246,25 @@
           <td class="text-end">1504</td>
           <td class="text-end">29.0</td>
           <td class="text-end"><span style="color:#28a745;" title="Best: P1 | Last 3: 3, 10, 1">11<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.18</span></td>
+          
+        </tr>
+<tr class="row-top5">
+          <td><strong>5</strong></td>
+          <td>Christopher Bell</td>
+          <td>20</td>
+          <td><small>Joe Gibbs Racing</small></td>
+          <td class="text-end">12</td>
+          <td class="text-end"><strong>4.64</strong></td>
+          <td><div class="ep-bar" style="width: 80%"></div></td>
+          <td class="text-end">10.2%</td>
+          <td class="text-end">21.7%</td>
+          <td class="text-end">33.2%</td>
+          <td class="text-end">56.0%</td>
+          <td class="text-end">6.6%</td>
+          <td class="text-end">1504</td>
+          <td class="text-end">29.0</td>
+          <td class="text-end"><span style="color:#ffc107;" title="Best: P1 | Last 3: 8, 1, 27">12<small class="text-muted">(10)</small></span></td>
+          
         </tr>
 <tr class="">
           <td><strong>6</strong></td>
@@ -282,7 +272,7 @@
           <td>24</td>
           <td><small>Hendrick Motorsports</small></td>
           <td class="text-end">4</td>
-          <td class="text-end"><strong>4.19</strong></td>
+          <td class="text-end"><strong>4.20</strong></td>
           <td><div class="ep-bar" style="width: 72%"></div></td>
           <td class="text-end">6.6%</td>
           <td class="text-end">19.3%</td>
@@ -292,7 +282,7 @@
           <td class="text-end">1514</td>
           <td class="text-end">23.8</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P3 | Last 3: 6, 12, 30">16<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.09</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>7</strong></td>
@@ -300,7 +290,7 @@
           <td>19</td>
           <td><small>Joe Gibbs Racing</small></td>
           <td class="text-end">26</td>
-          <td class="text-end"><strong>4.18</strong></td>
+          <td class="text-end"><strong>4.20</strong></td>
           <td><div class="ep-bar" style="width: 72%"></div></td>
           <td class="text-end">3.0%</td>
           <td class="text-end">17.1%</td>
@@ -310,7 +300,7 @@
           <td class="text-end">1495</td>
           <td class="text-end">29.0</td>
           <td class="text-end"><span style="color:#28a745;" title="Best: P4 | Last 3: 4, 9, 5">12<small class="text-muted">(8)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.15</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>8</strong></td>
@@ -318,8 +308,8 @@
           <td>12</td>
           <td><small>Team Penske</small></td>
           <td class="text-end">29</td>
-          <td class="text-end"><strong>4.08</strong></td>
-          <td><div class="ep-bar" style="width: 70%"></div></td>
+          <td class="text-end"><strong>4.02</strong></td>
+          <td><div class="ep-bar" style="width: 69%"></div></td>
           <td class="text-end">8.0%</td>
           <td class="text-end">19.3%</td>
           <td class="text-end">30.6%</td>
@@ -328,7 +318,7 @@
           <td class="text-end">1492</td>
           <td class="text-end">26.1</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P2 | Last 3: 5, 4, 2">14<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.47</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>9</strong></td>
@@ -336,7 +326,7 @@
           <td>23</td>
           <td><small>23XI Racing</small></td>
           <td class="text-end">10</td>
-          <td class="text-end"><strong>3.89</strong></td>
+          <td class="text-end"><strong>3.90</strong></td>
           <td><div class="ep-bar" style="width: 67%"></div></td>
           <td class="text-end">7.2%</td>
           <td class="text-end">15.2%</td>
@@ -346,7 +336,7 @@
           <td class="text-end">1507</td>
           <td class="text-end">23.2</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P3 | Last 3: 19, 34, 11">19<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.12</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>10</strong></td>
@@ -354,8 +344,8 @@
           <td>77</td>
           <td><small>Spire Motorsports</small></td>
           <td class="text-end">5</td>
-          <td class="text-end"><strong>3.73</strong></td>
-          <td><div class="ep-bar" style="width: 64%"></div></td>
+          <td class="text-end"><strong>3.68</strong></td>
+          <td><div class="ep-bar" style="width: 63%"></div></td>
           <td class="text-end">2.2%</td>
           <td class="text-end">7.2%</td>
           <td class="text-end">12.2%</td>
@@ -364,7 +354,7 @@
           <td class="text-end">1512</td>
           <td class="text-end">24.1</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P7 | Last 3: 11, 7, 10">14<small class="text-muted">(6)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.42</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>11</strong></td>
@@ -372,8 +362,8 @@
           <td>6</td>
           <td><small>RFK Racing</small></td>
           <td class="text-end">11</td>
-          <td class="text-end"><strong>3.65</strong></td>
-          <td><div class="ep-bar" style="width: 63%"></div></td>
+          <td class="text-end"><strong>3.61</strong></td>
+          <td><div class="ep-bar" style="width: 62%"></div></td>
           <td class="text-end">1.7%</td>
           <td class="text-end">6.7%</td>
           <td class="text-end">11.8%</td>
@@ -382,7 +372,7 @@
           <td class="text-end">1508</td>
           <td class="text-end">23.9</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P1 | Last 3: 16, 2, 14">12<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.28</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>12</strong></td>
@@ -390,8 +380,8 @@
           <td>48</td>
           <td><small>Hendrick Motorsports</small></td>
           <td class="text-end">6</td>
-          <td class="text-end"><strong>3.49</strong></td>
-          <td><div class="ep-bar" style="width: 60%"></div></td>
+          <td class="text-end"><strong>3.53</strong></td>
+          <td><div class="ep-bar" style="width: 61%"></div></td>
           <td class="text-end">2.4%</td>
           <td class="text-end">9.4%</td>
           <td class="text-end">16.5%</td>
@@ -400,7 +390,7 @@
           <td class="text-end">1516</td>
           <td class="text-end">23.8</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P4 | Last 3: 37, 8, 37">20<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.28</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>13</strong></td>
@@ -408,7 +398,7 @@
           <td>1</td>
           <td><small>Trackhouse Racing</small></td>
           <td class="text-end">7</td>
-          <td class="text-end"><strong>3.42</strong></td>
+          <td class="text-end"><strong>3.41</strong></td>
           <td><div class="ep-bar" style="width: 59%"></div></td>
           <td class="text-end">4.5%</td>
           <td class="text-end">9.2%</td>
@@ -418,7 +408,7 @@
           <td class="text-end">1514</td>
           <td class="text-end">18.9</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P6 | Last 3: 7, 19, 20">14<small class="text-muted">(8)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.07</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>14</strong></td>
@@ -426,7 +416,7 @@
           <td>60</td>
           <td><small>RFK Racing</small></td>
           <td class="text-end">16</td>
-          <td class="text-end"><strong>3.33</strong></td>
+          <td class="text-end"><strong>3.32</strong></td>
           <td><div class="ep-bar" style="width: 57%"></div></td>
           <td class="text-end">3.2%</td>
           <td class="text-end">7.4%</td>
@@ -436,7 +426,7 @@
           <td class="text-end">1505</td>
           <td class="text-end">23.9</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P7 | Last 3: 20, 21, 8">13<small class="text-muted">(9)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.12</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>15</strong></td>
@@ -444,8 +434,8 @@
           <td>2</td>
           <td><small>Team Penske</small></td>
           <td class="text-end">8</td>
-          <td class="text-end"><strong>3.32</strong></td>
-          <td><div class="ep-bar" style="width: 57%"></div></td>
+          <td class="text-end"><strong>3.28</strong></td>
+          <td><div class="ep-bar" style="width: 56%"></div></td>
           <td class="text-end">2.9%</td>
           <td class="text-end">7.8%</td>
           <td class="text-end">12.8%</td>
@@ -454,7 +444,7 @@
           <td class="text-end">1510</td>
           <td class="text-end">26.1</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P13 | Last 3: 17, 30, 16">23<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.34</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>16</strong></td>
@@ -462,7 +452,7 @@
           <td>45</td>
           <td><small>23XI Racing</small></td>
           <td class="text-end">20</td>
-          <td class="text-end"><strong>2.86</strong></td>
+          <td class="text-end"><strong>2.83</strong></td>
           <td><div class="ep-bar" style="width: 49%"></div></td>
           <td class="text-end">1.5%</td>
           <td class="text-end">7.3%</td>
@@ -472,15 +462,33 @@
           <td class="text-end">1500</td>
           <td class="text-end">23.2</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P4 | Last 3: 18, 15, 4">18<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.31</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>17</strong></td>
+          <td>Austin Dillon</td>
+          <td>3</td>
+          <td><small>Richard Childress Racing</small></td>
+          <td class="text-end">9</td>
+          <td class="text-end"><strong>2.62</strong></td>
+          <td><div class="ep-bar" style="width: 45%"></div></td>
+          <td class="text-end">1.5%</td>
+          <td class="text-end">4.0%</td>
+          <td class="text-end">6.5%</td>
+          <td class="text-end">18.4%</td>
+          <td class="text-end">15.7%</td>
+          <td class="text-end">1513</td>
+          <td class="text-end">18.4</td>
+          <td class="text-end"><span style="color:#6c757d;" title="Best: P6 | Last 3: 10, 28, 18">18<small class="text-muted">(10)</small></span></td>
+          
+        </tr>
+<tr class="">
+          <td><strong>18</strong></td>
           <td>Michael McDowell</td>
           <td>71</td>
           <td><small>Spire Motorsports</small></td>
           <td class="text-end">21</td>
-          <td class="text-end"><strong>2.62</strong></td>
+          <td class="text-end"><strong>2.59</strong></td>
           <td><div class="ep-bar" style="width: 45%"></div></td>
           <td class="text-end">1.2%</td>
           <td class="text-end">4.4%</td>
@@ -490,25 +498,7 @@
           <td class="text-end">1503</td>
           <td class="text-end">24.1</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P6 | Last 3: 30, 17, 24">16<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.20</span></td>
-        </tr>
-<tr class="">
-          <td><strong>18</strong></td>
-          <td>Austin Dillon</td>
-          <td>3</td>
-          <td><small>Richard Childress Racing</small></td>
-          <td class="text-end">9</td>
-          <td class="text-end"><strong>2.56</strong></td>
-          <td><div class="ep-bar" style="width: 44%"></div></td>
-          <td class="text-end">1.5%</td>
-          <td class="text-end">4.0%</td>
-          <td class="text-end">6.5%</td>
-          <td class="text-end">18.4%</td>
-          <td class="text-end">15.7%</td>
-          <td class="text-end">1513</td>
-          <td class="text-end">18.4</td>
-          <td class="text-end"><span style="color:#6c757d;" title="Best: P6 | Last 3: 10, 28, 18">18<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.47</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>19</strong></td>
@@ -526,7 +516,7 @@
           <td class="text-end">1496</td>
           <td class="text-end">23.8</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P2 | Last 3: 15, 38, 22">15<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.04</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>20</strong></td>
@@ -534,7 +524,7 @@
           <td>7</td>
           <td><small>Spire Motorsports</small></td>
           <td class="text-end">28</td>
-          <td class="text-end"><strong>2.50</strong></td>
+          <td class="text-end"><strong>2.48</strong></td>
           <td><div class="ep-bar" style="width: 43%"></div></td>
           <td class="text-end">1.2%</td>
           <td class="text-end">4.1%</td>
@@ -544,7 +534,7 @@
           <td class="text-end">1497</td>
           <td class="text-end">24.1</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P12 | Last 3: 33, 37, 12">24<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.18</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>21</strong></td>
@@ -562,7 +552,7 @@
           <td class="text-end">1513</td>
           <td class="text-end">18.9</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P33 | Last 3: 33">33<small class="text-muted">(1)</small></span></td>
-          <td class="text-end"><span class="text-muted" title="Confidence: 10%">0.01</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>22</strong></td>
@@ -570,7 +560,7 @@
           <td>17</td>
           <td><small>RFK Racing</small></td>
           <td class="text-end">23</td>
-          <td class="text-end"><strong>2.27</strong></td>
+          <td class="text-end"><strong>2.30</strong></td>
           <td><div class="ep-bar" style="width: 39%"></div></td>
           <td class="text-end">1.0%</td>
           <td class="text-end">2.7%</td>
@@ -580,34 +570,16 @@
           <td class="text-end">1498</td>
           <td class="text-end">23.9</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P1 | Last 3: 25, 11, 13">13<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.20</span></td>
+          
         </tr>
 <tr class="">
           <td><strong>23</strong></td>
-          <td>Shane van Gisbergen</td>
-          <td>97</td>
-          <td><small>Trackhouse Racing</small></td>
-          <td class="text-end">22</td>
-          <td class="text-end"><strong>2.25</strong></td>
-          <td><div class="ep-bar" style="width: 39%"></div></td>
-          <td class="text-end">1.3%</td>
-          <td class="text-end">2.9%</td>
-          <td class="text-end">4.5%</td>
-          <td class="text-end">14.6%</td>
-          <td class="text-end">10.6%</td>
-          <td class="text-end">1501</td>
-          <td class="text-end">18.9</td>
-          <td class="text-end"><span style="color:#6c757d;" title="Best: P26 | Last 3: 38, 26, 34">33<small class="text-muted">(3)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.15</span></td>
-        </tr>
-<tr class="">
-          <td><strong>24</strong></td>
           <td>Erik Jones</td>
           <td>43</td>
           <td><small>Legacy Motor Club</small></td>
           <td class="text-end">14</td>
-          <td class="text-end"><strong>2.19</strong></td>
-          <td><div class="ep-bar" style="width: 37%"></div></td>
+          <td class="text-end"><strong>2.24</strong></td>
+          <td><div class="ep-bar" style="width: 38%"></div></td>
           <td class="text-end">1.1%</td>
           <td class="text-end">2.6%</td>
           <td class="text-end">4.1%</td>
@@ -616,15 +588,51 @@
           <td class="text-end">1508</td>
           <td class="text-end">20.2</td>
           <td class="text-end"><span style="color:#ffc107;" title="Best: P3 | Last 3: 26, 20, 23">18<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.36</span></td>
+          
+        </tr>
+<tr class="">
+          <td><strong>24</strong></td>
+          <td>Shane van Gisbergen</td>
+          <td>97</td>
+          <td><small>Trackhouse Racing</small></td>
+          <td class="text-end">22</td>
+          <td class="text-end"><strong>2.23</strong></td>
+          <td><div class="ep-bar" style="width: 38%"></div></td>
+          <td class="text-end">1.3%</td>
+          <td class="text-end">2.9%</td>
+          <td class="text-end">4.5%</td>
+          <td class="text-end">14.6%</td>
+          <td class="text-end">10.6%</td>
+          <td class="text-end">1501</td>
+          <td class="text-end">18.9</td>
+          <td class="text-end"><span style="color:#6c757d;" title="Best: P26 | Last 3: 38, 26, 34">33<small class="text-muted">(3)</small></span></td>
+          
         </tr>
 <tr class="">
           <td><strong>25</strong></td>
+          <td>A.J. Allmendinger</td>
+          <td>16</td>
+          <td><small>Kaulig Racing</small></td>
+          <td class="text-end">18</td>
+          <td class="text-end"><strong>2.19</strong></td>
+          <td><div class="ep-bar" style="width: 37%"></div></td>
+          <td class="text-end">1.0%</td>
+          <td class="text-end">2.2%</td>
+          <td class="text-end">3.4%</td>
+          <td class="text-end">10.1%</td>
+          <td class="text-end">10.7%</td>
+          <td class="text-end">1506</td>
+          <td class="text-end">16.9</td>
+          <td class="text-end"><span style="color:#6c757d;" title="Best: P7 | Last 3: 9, 36, 15">20<small class="text-muted">(7)</small></span></td>
+          
+        </tr>
+<tr class="">
+          <td><strong>26</strong></td>
           <td>Cole Custer</td>
           <td>41</td>
           <td><small>Haas Factory Team</small></td>
           <td class="text-end">17</td>
-          <td class="text-end"><strong>2.14</strong></td>
+          <td class="text-end"><strong>2.15</strong></td>
           <td><div class="ep-bar" style="width: 37%"></div></td>
           <td class="text-end">1.0%</td>
           <td class="text-end">2.3%</td>
@@ -634,16 +642,16 @@
           <td class="text-end">1510</td>
           <td class="text-end">17.1</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P8 | Last 3: 29, 33, 28">26<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.04</span></td>
+          
         </tr>
 <tr class="">
-          <td><strong>26</strong></td>
+          <td><strong>27</strong></td>
           <td>Josh Berry</td>
           <td>21</td>
           <td><small>Wood Brothers Racing</small></td>
           <td class="text-end">32</td>
-          <td class="text-end"><strong>2.04</strong></td>
-          <td><div class="ep-bar" style="width: 35%"></div></td>
+          <td class="text-end"><strong>1.99</strong></td>
+          <td><div class="ep-bar" style="width: 34%"></div></td>
           <td class="text-end">2.2%</td>
           <td class="text-end">4.3%</td>
           <td class="text-end">6.5%</td>
@@ -652,33 +660,33 @@
           <td class="text-end">1498</td>
           <td class="text-end">18.3</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P12 | Last 3: 12, 39, 32">25<small class="text-muted">(5)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.36</span></td>
-        </tr>
-<tr class="">
-          <td><strong>27</strong></td>
-          <td>A.J. Allmendinger</td>
-          <td>16</td>
-          <td><small>Kaulig Racing</small></td>
-          <td class="text-end">18</td>
-          <td class="text-end"><strong>2.01</strong></td>
-          <td><div class="ep-bar" style="width: 34%"></div></td>
-          <td class="text-end">1.0%</td>
-          <td class="text-end">2.2%</td>
-          <td class="text-end">3.4%</td>
-          <td class="text-end">10.1%</td>
-          <td class="text-end">10.7%</td>
-          <td class="text-end">1506</td>
-          <td class="text-end">16.9</td>
-          <td class="text-end"><span style="color:#6c757d;" title="Best: P7 | Last 3: 9, 36, 15">20<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span class="text-muted" title="No practice data available">--</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>28</strong></td>
+          <td>John Hunter Nemechek</td>
+          <td>42</td>
+          <td><small>Legacy Motor Club</small></td>
+          <td class="text-end">19</td>
+          <td class="text-end"><strong>1.95</strong></td>
+          <td><div class="ep-bar" style="width: 33%"></div></td>
+          <td class="text-end">0.9%</td>
+          <td class="text-end">2.1%</td>
+          <td class="text-end">3.3%</td>
+          <td class="text-end">9.5%</td>
+          <td class="text-end">14.9%</td>
+          <td class="text-end">1507</td>
+          <td class="text-end">20.2</td>
+          <td class="text-end"><span style="color:#6c757d;" title="Best: P6 | Last 3: 21, 14, 35">20<small class="text-muted">(7)</small></span></td>
+          
+        </tr>
+<tr class="row-bottom">
+          <td><strong>29</strong></td>
           <td>Todd Gilliland</td>
           <td>34</td>
           <td><small>Front Row Motorsports</small></td>
           <td class="text-end">24</td>
-          <td class="text-end"><strong>1.95</strong></td>
+          <td class="text-end"><strong>1.92</strong></td>
           <td><div class="ep-bar" style="width: 33%"></div></td>
           <td class="text-end">0.8%</td>
           <td class="text-end">2.1%</td>
@@ -688,28 +696,28 @@
           <td class="text-end">1500</td>
           <td class="text-end">18.3</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P6 | Last 3: 35, 24, 6">22<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span style="color:#28a745;" title="Confidence: 10%">+0.26</span></td>
-        </tr>
-<tr class="row-bottom">
-          <td><strong>29</strong></td>
-          <td>John Hunter Nemechek</td>
-          <td>42</td>
-          <td><small>Legacy Motor Club</small></td>
-          <td class="text-end">19</td>
-          <td class="text-end"><strong>1.90</strong></td>
-          <td><div class="ep-bar" style="width: 32%"></div></td>
-          <td class="text-end">0.9%</td>
-          <td class="text-end">2.1%</td>
-          <td class="text-end">3.3%</td>
-          <td class="text-end">9.5%</td>
-          <td class="text-end">14.9%</td>
-          <td class="text-end">1507</td>
-          <td class="text-end">20.2</td>
-          <td class="text-end"><span style="color:#6c757d;" title="Best: P6 | Last 3: 21, 14, 35">20<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.42</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>30</strong></td>
+          <td>Austin Hill</td>
+          <td>33</td>
+          <td><small>Richard Childress Racing</small></td>
+          <td class="text-end">25</td>
+          <td class="text-end"><strong>1.63</strong></td>
+          <td><div class="ep-bar" style="width: 28%"></div></td>
+          <td class="text-end">0.7%</td>
+          <td class="text-end">1.4%</td>
+          <td class="text-end">2.0%</td>
+          <td class="text-end">4.7%</td>
+          <td class="text-end">7.4%</td>
+          <td class="text-end">1503</td>
+          <td class="text-end">18.4</td>
+          <td class="text-end"><span style="color:#6c757d;" title="Best: P25 | Last 3: 25">25<small class="text-muted">(1)</small></span></td>
+          
+        </tr>
+<tr class="row-bottom">
+          <td><strong>31</strong></td>
           <td>Ricky Stenhouse Jr.</td>
           <td>47</td>
           <td><small>Hyak Motorsports</small></td>
@@ -724,25 +732,7 @@
           <td class="text-end">1499</td>
           <td class="text-end">18.3</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P10 | Last 3: 22, 22, 17">26<small class="text-muted">(10)</small></span></td>
-          <td class="text-end"><span class="text-muted" title="Confidence: 10%">-0.01</span></td>
-        </tr>
-<tr class="row-bottom">
-          <td><strong>31</strong></td>
-          <td>Austin Hill</td>
-          <td>33</td>
-          <td><small>Richard Childress Racing</small></td>
-          <td class="text-end">25</td>
-          <td class="text-end"><strong>1.57</strong></td>
-          <td><div class="ep-bar" style="width: 27%"></div></td>
-          <td class="text-end">0.7%</td>
-          <td class="text-end">1.4%</td>
-          <td class="text-end">2.0%</td>
-          <td class="text-end">4.7%</td>
-          <td class="text-end">7.4%</td>
-          <td class="text-end">1503</td>
-          <td class="text-end">18.4</td>
-          <td class="text-end"><span style="color:#6c757d;" title="Best: P25 | Last 3: 25">25<small class="text-muted">(1)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.45</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>32</strong></td>
@@ -750,8 +740,8 @@
           <td>38</td>
           <td><small>Front Row Motorsports</small></td>
           <td class="text-end">35</td>
-          <td class="text-end"><strong>1.44</strong></td>
-          <td><div class="ep-bar" style="width: 24%"></div></td>
+          <td class="text-end"><strong>1.47</strong></td>
+          <td><div class="ep-bar" style="width: 25%"></div></td>
           <td class="text-end">0.8%</td>
           <td class="text-end">1.9%</td>
           <td class="text-end">2.9%</td>
@@ -760,7 +750,7 @@
           <td class="text-end">1492</td>
           <td class="text-end">18.3</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P3 | Last 3: 27, 3, 19">20<small class="text-muted">(5)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.26</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>33</strong></td>
@@ -768,8 +758,8 @@
           <td>4</td>
           <td><small>Front Row Motorsports</small></td>
           <td class="text-end">36</td>
-          <td class="text-end"><strong>1.42</strong></td>
-          <td><div class="ep-bar" style="width: 24%"></div></td>
+          <td class="text-end"><strong>1.45</strong></td>
+          <td><div class="ep-bar" style="width: 25%"></div></td>
           <td class="text-end">0.8%</td>
           <td class="text-end">2.2%</td>
           <td class="text-end">3.7%</td>
@@ -778,7 +768,7 @@
           <td class="text-end">1495</td>
           <td class="text-end">18.3</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P12 | Last 3: 23, 23, 26">24<small class="text-muted">(5)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.31</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>34</strong></td>
@@ -786,7 +776,7 @@
           <td>35</td>
           <td><small>23XI Racing</small></td>
           <td class="text-end">34</td>
-          <td class="text-end"><strong>1.39</strong></td>
+          <td class="text-end"><strong>1.44</strong></td>
           <td><div class="ep-bar" style="width: 24%"></div></td>
           <td class="text-end">1.0%</td>
           <td class="text-end">2.7%</td>
@@ -796,7 +786,7 @@
           <td class="text-end">1494</td>
           <td class="text-end">23.2</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P18 | Last 3: 28, 18, 21">22<small class="text-muted">(3)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.39</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>35</strong></td>
@@ -804,7 +794,7 @@
           <td>10</td>
           <td><small>Kaulig Racing</small></td>
           <td class="text-end">33</td>
-          <td class="text-end"><strong>1.24</strong></td>
+          <td class="text-end"><strong>1.25</strong></td>
           <td><div class="ep-bar" style="width: 21%"></div></td>
           <td class="text-end">0.7%</td>
           <td class="text-end">1.2%</td>
@@ -814,7 +804,7 @@
           <td class="text-end">1496</td>
           <td class="text-end">16.9</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P18 | Last 3: 32, 27, 29">29<small class="text-muted">(7)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.07</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>36</strong></td>
@@ -822,7 +812,7 @@
           <td>51</td>
           <td><small>Rick Ware Racing</small></td>
           <td class="text-end">30</td>
-          <td class="text-end"><strong>1.04</strong></td>
+          <td class="text-end"><strong>1.07</strong></td>
           <td><div class="ep-bar" style="width: 18%"></div></td>
           <td class="text-end">0.6%</td>
           <td class="text-end">1.0%</td>
@@ -832,7 +822,7 @@
           <td class="text-end">1503</td>
           <td class="text-end">11.3</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P17 | Last 3: 36, 29, 31">28<small class="text-muted">(4)</small></span></td>
-          <td class="text-end"><span style="color:#dc3545;" title="Confidence: 10%">-0.23</span></td>
+          
         </tr>
 <tr class="row-bottom">
           <td><strong>37</strong></td>
@@ -840,8 +830,8 @@
           <td></td>
           <td><small></small></td>
           <td class="text-end">37</td>
-          <td class="text-end"><strong>0.79</strong></td>
-          <td><div class="ep-bar" style="width: 13%"></div></td>
+          <td class="text-end"><strong>0.86</strong></td>
+          <td><div class="ep-bar" style="width: 14%"></div></td>
           <td class="text-end">0.7%</td>
           <td class="text-end">1.1%</td>
           <td class="text-end">1.6%</td>
@@ -850,7 +840,7 @@
           <td class="text-end">1493</td>
           <td class="text-end">7.9</td>
           <td class="text-end"><span style="color:#6c757d;" title="Best: P31 | Last 3: 31, 34, 39">36<small class="text-muted">(4)</small></span></td>
-          <td class="text-end"><span class="text-muted" title="No practice data available">--</span></td>
+          
         </tr>
 </tbody>
       </table>
@@ -860,11 +850,518 @@
         <strong>EP Scoring:</strong> Win=10, Top5=7, Top10=5, Top20=3, Made=1, DNF=0
         &nbsp;&middot;&nbsp;<strong>EP</strong> = weighted sum of bucket probabilities
         &nbsp;&middot;&nbsp;<strong>Org</strong> = organization equipment rating (41 - avg recent finish)
-        &nbsp;&middot;&nbsp;<strong>Prac</strong> = practice speed adjustment (green = faster than avg, red = slower; hover for confidence)
+        
       </small>
     </div></div>
   </div>
-  
+  <div class="tab-pane fade" id="results-pane" role="tabpanel">
+    <div class="card mb-4"><div class="card-body p-0"><div class="table-responsive">
+      <table class="table table-hover table-sm mb-0">
+        <thead><tr>
+          <th style="width:55px" title="Actual finishing position">Finish</th>
+          <th>Driver</th>
+          <th style="width:50px" title="Car number">#</th>
+          <th>Team</th>
+          <th class="text-end" style="width:55px" title="Starting position">Start</th>
+          <th class="text-end" style="width:60px" title="Positions gained or lost">+/-</th>
+          <th class="text-end" style="width:70px" title="Predicted rank by EP">Pred</th>
+          <th class="text-end" style="width:70px" title="Prediction vs actual">Diff</th>
+          <th class="text-end" style="width:65px" title="Total laps">Laps</th>
+          <th class="text-end" style="width:60px" title="Laps led">Led</th>
+          <th style="width:90px" title="Status">Status</th>
+        </tr></thead>
+        <tbody><tr class="row-top5">
+              <td><strong>1</strong></td>
+              <td>Joey Logano</td>
+              <td>22</td>
+              <td><small>Team Penske</small></td>
+              <td class="text-end">2</td>
+              <td class="text-end"><span style="color:#28a745;">+1</span></td>
+              <td class="text-end">P2</td>
+              <td class="text-end"><span style="color:#dc3545;">1 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">93</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-top5">
+              <td><strong>2</strong></td>
+              <td>Kyle Larson</td>
+              <td>5</td>
+              <td><small>Hendrick Motorsports</small></td>
+              <td class="text-end">1</td>
+              <td class="text-end"><span style="color:#dc3545;">-1</span></td>
+              <td class="text-end">P3</td>
+              <td class="text-end"><span style="color:#dc3545;">1 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">45</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-top5">
+              <td><strong>3</strong></td>
+              <td>Carson Hocevar</td>
+              <td>77</td>
+              <td><small>Spire Motorsports</small></td>
+              <td class="text-end">5</td>
+              <td class="text-end"><span style="color:#28a745;">+2</span></td>
+              <td class="text-end">P10</td>
+              <td class="text-end"><span style="color:#dc3545;">7 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">39</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-top5">
+              <td><strong>4</strong></td>
+              <td>Christopher Bell</td>
+              <td>20</td>
+              <td><small>Joe Gibbs Racing</small></td>
+              <td class="text-end">12</td>
+              <td class="text-end"><span style="color:#28a745;">+8</span></td>
+              <td class="text-end">P5</td>
+              <td class="text-end"><span style="color:#dc3545;">1 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">1</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-top5">
+              <td><strong>5</strong></td>
+              <td>Ty Gibbs</td>
+              <td>54</td>
+              <td><small>Joe Gibbs Racing</small></td>
+              <td class="text-end">13</td>
+              <td class="text-end"><span style="color:#28a745;">+8</span></td>
+              <td class="text-end">P4</td>
+              <td class="text-end"><span style="color:#28a745;">1 better</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">120</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>6</strong></td>
+              <td>Josh Berry</td>
+              <td>21</td>
+              <td><small>Wood Brothers Racing</small></td>
+              <td class="text-end">32</td>
+              <td class="text-end"><span style="color:#28a745;">+26</span></td>
+              <td class="text-end">P27</td>
+              <td class="text-end"><span style="color:#dc3545;">21 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>7</strong></td>
+              <td>Bubba Wallace</td>
+              <td>23</td>
+              <td><small>23XI Racing</small></td>
+              <td class="text-end">10</td>
+              <td class="text-end"><span style="color:#28a745;">+3</span></td>
+              <td class="text-end">P9</td>
+              <td class="text-end"><span style="color:#dc3545;">2 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>8</strong></td>
+              <td>Denny Hamlin</td>
+              <td>11</td>
+              <td><small>Joe Gibbs Racing</small></td>
+              <td class="text-end">3</td>
+              <td class="text-end"><span style="color:#dc3545;">-5</span></td>
+              <td class="text-end">P1</td>
+              <td class="text-end"><span style="color:#28a745;">7 better</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>9</strong></td>
+              <td>William Byron</td>
+              <td>24</td>
+              <td><small>Hendrick Motorsports</small></td>
+              <td class="text-end">4</td>
+              <td class="text-end"><span style="color:#dc3545;">-5</span></td>
+              <td class="text-end">P6</td>
+              <td class="text-end"><span style="color:#28a745;">3 better</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>10</strong></td>
+              <td>Ryan Preece</td>
+              <td>60</td>
+              <td><small>RFK Racing</small></td>
+              <td class="text-end">16</td>
+              <td class="text-end"><span style="color:#28a745;">+6</span></td>
+              <td class="text-end">P14</td>
+              <td class="text-end"><span style="color:#dc3545;">4 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>11</strong></td>
+              <td>Austin Cindric</td>
+              <td>2</td>
+              <td><small>Team Penske</small></td>
+              <td class="text-end">8</td>
+              <td class="text-end"><span style="color:#dc3545;">-3</span></td>
+              <td class="text-end">P15</td>
+              <td class="text-end"><span style="color:#dc3545;">4 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>12</strong></td>
+              <td>Ross Chastain</td>
+              <td>1</td>
+              <td><small>Trackhouse Racing</small></td>
+              <td class="text-end">7</td>
+              <td class="text-end"><span style="color:#dc3545;">-5</span></td>
+              <td class="text-end">P13</td>
+              <td class="text-end"><span style="color:#dc3545;">1 worse</span></td>
+              <td class="text-end">500</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>13</strong></td>
+              <td>Chris Buescher</td>
+              <td>17</td>
+              <td><small>RFK Racing</small></td>
+              <td class="text-end">23</td>
+              <td class="text-end"><span style="color:#28a745;">+10</span></td>
+              <td class="text-end">P22</td>
+              <td class="text-end"><span style="color:#dc3545;">9 worse</span></td>
+              <td class="text-end">499</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>14</strong></td>
+              <td>Daniel Suarez</td>
+              <td>7</td>
+              <td><small>Spire Motorsports</small></td>
+              <td class="text-end">28</td>
+              <td class="text-end"><span style="color:#28a745;">+14</span></td>
+              <td class="text-end">P20</td>
+              <td class="text-end"><span style="color:#dc3545;">6 worse</span></td>
+              <td class="text-end">498</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>15</strong></td>
+              <td>Brad Keselowski</td>
+              <td>6</td>
+              <td><small>RFK Racing</small></td>
+              <td class="text-end">11</td>
+              <td class="text-end"><span style="color:#dc3545;">-4</span></td>
+              <td class="text-end">P11</td>
+              <td class="text-end"><span style="color:#28a745;">4 better</span></td>
+              <td class="text-end">498</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>16</strong></td>
+              <td>Noah Gragson</td>
+              <td>4</td>
+              <td><small>Front Row Motorsports</small></td>
+              <td class="text-end">36</td>
+              <td class="text-end"><span style="color:#28a745;">+20</span></td>
+              <td class="text-end">P33</td>
+              <td class="text-end"><span style="color:#dc3545;">17 worse</span></td>
+              <td class="text-end">498</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>17</strong></td>
+              <td>Austin Dillon</td>
+              <td>3</td>
+              <td><small>Richard Childress Racing</small></td>
+              <td class="text-end">9</td>
+              <td class="text-end"><span style="color:#dc3545;">-8</span></td>
+              <td class="text-end">P17</td>
+              <td class="text-end"><span style="color:#28a745;">Exact</span></td>
+              <td class="text-end">498</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>18</strong></td>
+              <td>Tyler Reddick</td>
+              <td>45</td>
+              <td><small>23XI Racing</small></td>
+              <td class="text-end">20</td>
+              <td class="text-end"><span style="color:#28a745;">+2</span></td>
+              <td class="text-end">P16</td>
+              <td class="text-end"><span style="color:#28a745;">2 better</span></td>
+              <td class="text-end">497</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>19</strong></td>
+              <td>Todd Gilliland</td>
+              <td>34</td>
+              <td><small>Front Row Motorsports</small></td>
+              <td class="text-end">24</td>
+              <td class="text-end"><span style="color:#28a745;">+5</span></td>
+              <td class="text-end">P29</td>
+              <td class="text-end"><span style="color:#dc3545;">10 worse</span></td>
+              <td class="text-end">497</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>20</strong></td>
+              <td>Shane van Gisbergen</td>
+              <td>97</td>
+              <td><small>Trackhouse Racing</small></td>
+              <td class="text-end">22</td>
+              <td class="text-end"><span style="color:#28a745;">+2</span></td>
+              <td class="text-end">P24</td>
+              <td class="text-end"><span style="color:#dc3545;">4 worse</span></td>
+              <td class="text-end">497</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>21</strong></td>
+              <td>Michael McDowell</td>
+              <td>71</td>
+              <td><small>Spire Motorsports</small></td>
+              <td class="text-end">21</td>
+              <td class="text-end"><span class="text-muted">0</span></td>
+              <td class="text-end">P18</td>
+              <td class="text-end"><span style="color:#28a745;">3 better</span></td>
+              <td class="text-end">497</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>22</strong></td>
+              <td>A.J. Allmendinger</td>
+              <td>16</td>
+              <td><small>Kaulig Racing</small></td>
+              <td class="text-end">18</td>
+              <td class="text-end"><span style="color:#dc3545;">-4</span></td>
+              <td class="text-end">P25</td>
+              <td class="text-end"><span style="color:#dc3545;">3 worse</span></td>
+              <td class="text-end">497</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>23</strong></td>
+              <td>Chase Elliott</td>
+              <td>9</td>
+              <td><small>Hendrick Motorsports</small></td>
+              <td class="text-end">27</td>
+              <td class="text-end"><span style="color:#28a745;">+4</span></td>
+              <td class="text-end">P19</td>
+              <td class="text-end"><span style="color:#28a745;">4 better</span></td>
+              <td class="text-end">497</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>24</strong></td>
+              <td>Connor Zilisch</td>
+              <td>88</td>
+              <td><small>Trackhouse Racing</small></td>
+              <td class="text-end">15</td>
+              <td class="text-end"><span style="color:#dc3545;">-9</span></td>
+              <td class="text-end">P21</td>
+              <td class="text-end"><span style="color:#28a745;">3 better</span></td>
+              <td class="text-end">496</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>25</strong></td>
+              <td>John Hunter Nemechek</td>
+              <td>42</td>
+              <td><small>Legacy Motor Club</small></td>
+              <td class="text-end">19</td>
+              <td class="text-end"><span style="color:#dc3545;">-6</span></td>
+              <td class="text-end">P28</td>
+              <td class="text-end"><span style="color:#dc3545;">3 worse</span></td>
+              <td class="text-end">495</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>26</strong></td>
+              <td>Cole Custer</td>
+              <td>41</td>
+              <td><small>Haas Factory Team</small></td>
+              <td class="text-end">17</td>
+              <td class="text-end"><span style="color:#dc3545;">-9</span></td>
+              <td class="text-end">P26</td>
+              <td class="text-end"><span style="color:#28a745;">Exact</span></td>
+              <td class="text-end">495</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-bottom">
+              <td><strong>27</strong></td>
+              <td>Chase Briscoe</td>
+              <td>19</td>
+              <td><small>Joe Gibbs Racing</small></td>
+              <td class="text-end">26</td>
+              <td class="text-end"><span style="color:#dc3545;">-1</span></td>
+              <td class="text-end">P7</td>
+              <td class="text-end"><span style="color:#28a745;">20 better</span></td>
+              <td class="text-end">494</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-danger">Suspension</span></td>
+            </tr>
+<tr class="">
+              <td><strong>28</strong></td>
+              <td>Zane Smith</td>
+              <td>38</td>
+              <td><small>Front Row Motorsports</small></td>
+              <td class="text-end">35</td>
+              <td class="text-end"><span style="color:#28a745;">+7</span></td>
+              <td class="text-end">P32</td>
+              <td class="text-end"><span style="color:#dc3545;">4 worse</span></td>
+              <td class="text-end">494</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>29</strong></td>
+              <td>Austin Hill</td>
+              <td>33</td>
+              <td><small>Richard Childress Racing</small></td>
+              <td class="text-end">25</td>
+              <td class="text-end"><span style="color:#dc3545;">-4</span></td>
+              <td class="text-end">P30</td>
+              <td class="text-end"><span style="color:#dc3545;">1 worse</span></td>
+              <td class="text-end">494</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>30</strong></td>
+              <td>Ricky Stenhouse Jr.</td>
+              <td>47</td>
+              <td><small>Hyak Motorsports</small></td>
+              <td class="text-end">31</td>
+              <td class="text-end"><span style="color:#28a745;">+1</span></td>
+              <td class="text-end">P31</td>
+              <td class="text-end"><span style="color:#dc3545;">1 worse</span></td>
+              <td class="text-end">490</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>31</strong></td>
+              <td>Cody Ware</td>
+              <td>51</td>
+              <td><small>Rick Ware Racing</small></td>
+              <td class="text-end">30</td>
+              <td class="text-end"><span style="color:#dc3545;">-1</span></td>
+              <td class="text-end">P36</td>
+              <td class="text-end"><span style="color:#dc3545;">5 worse</span></td>
+              <td class="text-end">489</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="">
+              <td><strong>32</strong></td>
+              <td>Erik Jones</td>
+              <td>43</td>
+              <td><small>Legacy Motor Club</small></td>
+              <td class="text-end">14</td>
+              <td class="text-end"><span style="color:#dc3545;">-18</span></td>
+              <td class="text-end">P23</td>
+              <td class="text-end"><span style="color:#28a745;">9 better</span></td>
+              <td class="text-end">483</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-bottom">
+              <td><strong>33</strong></td>
+              <td>Ryan Blaney</td>
+              <td>12</td>
+              <td><small>Team Penske</small></td>
+              <td class="text-end">29</td>
+              <td class="text-end"><span style="color:#dc3545;">-4</span></td>
+              <td class="text-end">P8</td>
+              <td class="text-end"><span style="color:#28a745;">25 better</span></td>
+              <td class="text-end">457</td>
+              <td class="text-end">202</td>
+              <td><span class="badge bg-danger">Accident</span></td>
+            </tr>
+<tr class="row-bottom">
+              <td><strong>34</strong></td>
+              <td>Riley Herbst</td>
+              <td>35</td>
+              <td><small>23XI Racing</small></td>
+              <td class="text-end">34</td>
+              <td class="text-end"><span class="text-muted">0</span></td>
+              <td class="text-end">P34</td>
+              <td class="text-end"><span style="color:#28a745;">Exact</span></td>
+              <td class="text-end">432</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-danger">Suspension</span></td>
+            </tr>
+<tr class="row-bottom">
+              <td><strong>35</strong></td>
+              <td>Alex Bowman</td>
+              <td>48</td>
+              <td><small>Hendrick Motorsports</small></td>
+              <td class="text-end">6</td>
+              <td class="text-end"><span style="color:#dc3545;">-29</span></td>
+              <td class="text-end">P12</td>
+              <td class="text-end"><span style="color:#28a745;">23 better</span></td>
+              <td class="text-end">428</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-danger">Accident</span></td>
+            </tr>
+<tr class="">
+              <td><strong>36</strong></td>
+              <td>Ty Dillon</td>
+              <td>10</td>
+              <td><small>Kaulig Racing</small></td>
+              <td class="text-end">33</td>
+              <td class="text-end"><span style="color:#dc3545;">-3</span></td>
+              <td class="text-end">P35</td>
+              <td class="text-end"><span style="color:#28a745;">1 better</span></td>
+              <td class="text-end">402</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-success">Running</span></td>
+            </tr>
+<tr class="row-bottom">
+              <td><strong>37</strong></td>
+              <td>Josh Bilicki</td>
+              <td>66</td>
+              <td><small>Garage 66</small></td>
+              <td class="text-end">37</td>
+              <td class="text-end"><span class="text-muted">0</span></td>
+              <td class="text-end">P37</td>
+              <td class="text-end"><span style="color:#28a745;">Exact</span></td>
+              <td class="text-end">338</td>
+              <td class="text-end">0</td>
+              <td><span class="badge bg-danger">Suspension</span></td>
+            </tr>
+</tbody>
+      </table>
+    </div></div></div>
+    <div class="card"><div class="card-body py-2">
+      <small class="text-muted">
+        <strong>+/-</strong> = positions gained/lost from start
+        &nbsp;&middot;&nbsp;<strong>Pred</strong> = model's predicted rank (by EP)
+        &nbsp;&middot;&nbsp;<strong>Diff</strong> = how far off the prediction was from actual finish
+      </small>
+    </div></div>
+  </div>
 </div>
   </div>
 
